@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="MainPage.css">
+    <script src="javaScript.js"></script>
+<script src="Mainpage.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="welcome">
+        <br>
+        <marquee behavior="scroll"  direction="right">Welcome to the main Page darling</marquee>
+    </div>
+    
+    <div class="line"></div>
+
+    <div class="navbar">
+        <div class="name">
+            <h1>Gopi chand</h1>
+        </div>
+        
+        <div class="bar">
+            <button type="button" class="btn btn-primary" onclick="navigateToDiv('about')">About</button>
+            <button type="button" class="btn btn-primary"  onclick="navigateToDiv('skills')">Skills</button>
+            <button type="button" class="btn btn-primary"  onclick="navigateToDiv('Projects')">Projects</button>
+            <button type="button" class="btn btn-primary"  onclick="navigateToDiv('Contacts')">Contact</button>
+        </div>
+    </div>
+    
+
+    <div id="about"  class="about">
+        <div class="img1">
+            <img src="images/1-removebg-preview.png" alt="bgImage" />
+        </div>
+
+        <div class="about-text">
+            <p>
+               <Strong><i> Hi, I'm Gopi chand,<br>
+                Software developer from<br>
+                Andhra Pradesh.</i></strong><br>
+                I have passion in developing software application for that i always dedicate myself sometime to learn
+                the new technologies.
+            </p>
+            
+        </div>
+    </div>
+
+
+ <div class="emp">
+    <br>
+    <h1>skills</h1>
+ </div>
+    
+
+<div id="skills" class="skills">
+    <div class="card" onclick="handleCardClick(1)">
+        <img src="images/java.jpg" alt="Avatar" style="width:85%; height: 20em;">
+        <div class="container">
+            <h4>Gopi Chand</h4>
+            <p>Software Developer and Consultant</p>
+        </div>
+      </div>
+
+      <div class="card" onclick="handleCardClick(2)">
+        <img src="images/Scripting Languages.jpg" alt="Avatar" style="width:85%;  height: 20em;">
+        <div class="container">
+            <h4>Gopi Chand</h4>
+            <p>Software Developer and Consultant</p>
+        </div>
+      </div>
+
+      <div class="card" onclick="handleCardClick(3)">
+        <img src="images/python.jpg" alt="Avatar" style="width:85%; height: 20em;">
+        <div class="container">
+            <h4>Gopi Chand</h4>
+            <p>Software Developer and Consultant</p>
+        </div>
+      </div>
+</div>
+
+<div class="emp">
+    <br>
+    <h1>My Projects</h1>
+</div>
+
+<div id="Projects" class="projects">
+
+    <div class="card1">
+        <img src="images/Projects.jpg" alt="Avatar" style="width:85%; height: 20em;">
+        <h4>Gopi Chand</h4>
+        <p>My Projects</p>
+    </div>
+
+</div>
+
+<div class="emp">
+    <br>
+    <h1>Connect With me</h1>
+</div>
+  
+<div id="Contacts" class="Contacts">
+    <div class="mark">
+        Created By
+        <h1>Gopi chand</h1>
+    </div>
+
+    <div class="connect">
+        <p>Connect with me through<br></p>
+
+        <a href="https://www.linkedin.com/in/gopi-chand-741a80182/"><img src="images/linkedIn.jpg" height="30px" width="30px">&nbsp;&nbsp; </a>
+        <a href="https://github.com/Gopichand2"> <img src="images/GitHub.png" height="30px" width="30px">&nbsp;&nbsp;</a>
+        <a href="https://auth.geeksforgeeks.org/user/sammangigopi009/?utm_source=geeksforgeeks&utm_medium=my_profile&utm_campaign=auth_user"><img src="images/gfg.jpg" height="30px" width="30px">&nbsp;&nbsp;</a>
+    </div>
+</div>
+    
+</body>
+</html>
